@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#container{
+ width: 90%;
+ margin: 10px auto;
+height: 1000%;
+
+}
+
+header{
+    background-color: orange;
+    min-height: 80px;
+}
+
+#main{
+
+    background-color: lightgreen;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+#sidebar{
+    background-color: blueviolet;
+    min-height: 350px;
+    float: left;
+    width: 200px;
+}
+#sidebar .a{
+    color: aliceblue;
+}
+#sidebar2{
+    background-color: blueviolet;
+    min-height: 350px;
+    float: right;
+    width: 200px;
+}
+#column1{
+    background-color: lightgreen;
+    min-height: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+footer{
+    background-color: orange;
+    min-height: 60px;
+}
